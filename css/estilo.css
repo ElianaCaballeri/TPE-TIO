@@ -36,6 +36,11 @@
     text-transform: uppercase;
     color:#AA9739;
 }
+.subtitulos {
+    font-size: 22px;
+    text-transform: capitalize;
+    color:#AA9739;
+}
 
 /*-------------footer---------------------*/
 .pie {
