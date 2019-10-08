@@ -24,11 +24,7 @@
 .botonera li a:hover {
     background: #806D15;
 }
-.resaltado{
-    text-transform: capitalize;
-    color:#AA9739;
-    font-size: 18px; 
-}
+
 .secciones{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -36,23 +32,7 @@
     text-transform: uppercase;
     color:#AA9739;
 }
-/* vencimientos*/
-.tablaVencimiento{
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-.tablaVencimiento th{
-    padding: 12px 0;
-    text-align: left;
-    background-color:#D4C26A;
-    color:#FFF0AA;
-}
-.tablaVencimiento td{
-    border: 2px solid #ddd;
-    padding: 11px;
- }
-/*---fin estilo vencimientos---*/
+
 .pie {
     margin-top: 0;
     padding: 1%;
@@ -73,7 +53,7 @@
 .sitiosInteres li {
     display: inline;
 }
-consulta{
+.consulta{
     padding:10px;
     margin: 0;
 }
