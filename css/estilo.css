@@ -1,109 +1,147 @@
 .encabezado {
-    width: 100%;       
+    width: 100%;
     margin: 0;
-    height:20%;
+    height: 20%;
     text-align: center;
-    background:#AA9739;
-    background-size: 100%;         
+    background: #AA9739;
+    background-size: 100%;
 }
-.logo{
-    width:100%;
+
+.logo {
+    width: 100%;
     height: 20%;
 }
-.botonera{
-    margin:0;
-    background:#FFF0AA;
+
+.botonera {
+    margin: 0;
+    background: #FFF0AA;
     text-transform: uppercase;
-    padding:0;
+    padding: 0;
 }
-.botonera li a{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+
+.botonera li a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #FFF0AA;
-    color:#D4C26A;
+    color: #D4C26A;
 }
+
 .botonera li a:hover {
     background: #806D15;
 }
 
 .resaltado{
+
+
     text-transform: capitalize;
-    color:#AA9739;
-    font-size: 18px; 
+    color: #AA9739;
+    font-size: 18px;
 }
 
-
-
-.secciones{
+.secciones {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     text-transform: uppercase;
-    color:#AA9739;
+    color: #AA9739;
 }
 
+.subtitulos {
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #AA9739;
+}
 
+/* vencimientos*/
+
+.tablaVencimiento {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tablaVencimiento th {
+    padding: 12px 0;
+    text-align: left;
+    background-color: #D4C26A;
+    color: #FFF0AA;
+}
+
+.tablaVencimiento td {
+    border: 2px solid #ddd;
+    padding: 11px;
+}
+
+/*---fin estilo vencimientos---*/
 
 /*-------------footer---------------------*/
-
-
 
 .pie {
     margin-top: 0;
     padding: 1%;
-    background-color:#AA9739;
+    background-color: #AA9739;
 }
+
 .pie h4 {
     color: #FFF0AA;
     /* text-align: right; */
 }
+
 .subtitulos {
     font-size: 22px;
     text-transform: capitalize;
-    color:#AA9739;
-}   
-.sitiosInteres{
+    color: #AA9739;
+}
+
+.sitiosInteres {
     list-style-type: none;
 }
+
 .sitiosInteres li {
     display: inline;
 }
-.consulta{
-    padding:10px;
+
+.consulta {
+    padding: 10px;
     margin: 0;
 }
-.consulta h1{
+
+.consulta h1 {
     text-align: center;
     margin: 5 auto;
     font-size: 32px;
-    color:#AA9739;
+    color: #AA9739;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .datos {
     display: block;
     font-size: 20px;
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.validarConsulta{
+
+.validarConsulta {
     text-align: justify;
-    padding:5px 30px;
+    padding: 5px 30px;
 }
-.capcha{
+
+.capcha {
     text-align: justify;
     display: inline;
     font-size: 20px;
-    color:#AA9739;
+    color: #AA9739;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.valorIngresado{
+
+.valorIngresado {
     display: inline;
     font-size: 10px;
-    padding:5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.btnValidar{
-    font-size: 20px;
     padding: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.btnValidar {
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
