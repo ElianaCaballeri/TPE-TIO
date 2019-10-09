@@ -24,15 +24,15 @@
 .botonera li a:hover {
     background: #806D15;
 }
-<<<<<<< HEAD
+
 .resaltado{
     text-transform: capitalize;
     color:#AA9739;
     font-size: 18px; 
 }
-=======
 
->>>>>>> eliana
+
+
 .secciones{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,17 +40,13 @@
     text-transform: uppercase;
     color:#AA9739;
 }
-<<<<<<< HEAD
-.subtitulos {
-    font-size: 22px;
-    text-transform: capitalize;
-    color:#AA9739;
-}
+
+
 
 /*-------------footer---------------------*/
-=======
 
->>>>>>> eliana
+
+
 .pie {
     margin-top: 0;
     padding: 1%;
