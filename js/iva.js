@@ -1,7 +1,7 @@
 "use strict"
 document.addEventListener("DOMContentLoaded", iniciarPagina);
 function iniciarPagina() {
-    let baseUrl =“web-unicen.herokuapp.com / api / groups / 06GrupoBolivarMegaDelGiorgio / vencimientos”;
+    let baseUrl = "web-unicen.herokuapp.com / api / groups / 06GrupoBolivarMegaDelGiorgio / vencimientos";
     const MAX = 3;
     document.querySelector("#btnAgregarIva").addEventListener("click", agregarFecha);
     document.querySelector("#btnAgregarVariosIva").addEventListener("click", agregarVarios);
@@ -11,7 +11,7 @@ function iniciarPagina() {
     function agregarDato(datoJson) {
         fetch(baseUrl, {
             "method": "POST",
-            "headers": { "Content-Type": "application/json" };
+            "headers": { "Content-Type": "application/json" },
             "body": JSON.stringify(thing.datoJson)
         })
             .then(r => r.json())
