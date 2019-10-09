@@ -24,11 +24,15 @@
 .botonera li a:hover {
     background: #806D15;
 }
+<<<<<<< HEAD
 .resaltado{
     text-transform: capitalize;
     color:#AA9739;
     font-size: 18px; 
 }
+=======
+
+>>>>>>> eliana
 .secciones{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -36,6 +40,7 @@
     text-transform: uppercase;
     color:#AA9739;
 }
+<<<<<<< HEAD
 .subtitulos {
     font-size: 22px;
     text-transform: capitalize;
@@ -43,6 +48,9 @@
 }
 
 /*-------------footer---------------------*/
+=======
+
+>>>>>>> eliana
 .pie {
     margin-top: 0;
     padding: 1%;
@@ -52,3 +60,54 @@
     color: #FFF0AA;
     /* text-align: right; */
 }
+.subtitulos {
+    font-size: 22px;
+    text-transform: capitalize;
+    color:#AA9739;
+}   
+.sitiosInteres{
+    list-style-type: none;
+}
+.sitiosInteres li {
+    display: inline;
+}
+.consulta{
+    padding:10px;
+    margin: 0;
+}
+.consulta h1{
+    text-align: center;
+    margin: 5 auto;
+    font-size: 32px;
+    color:#AA9739;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.datos {
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.validarConsulta{
+    text-align: justify;
+    padding:5px 30px;
+}
+.capcha{
+    text-align: justify;
+    display: inline;
+    font-size: 20px;
+    color:#AA9739;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.valorIngresado{
+    display: inline;
+    font-size: 10px;
+    padding:5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btnValidar{
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
